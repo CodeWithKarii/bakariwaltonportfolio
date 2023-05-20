@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+
+
+}
+
+body{
+  background-color:black;
+}
+p{
+  font-size:25px;
+  font-family: sans-serif;
+  color:white;
+  text-shadow: 2px 2px red;
+}
+h1{
+
+  font-family: 'Brush Script MT', cursive;
+  color:white;
+  text-shadow: 1px 1px red;
+  font-size:50px;
+}
+#header{
+  /* background-color:red; */
+  background-image: linear-gradient(to bottom right, red, black );
+}
+#icon{
+  background-color:white;
+}
+
+#wrapper{
+
+
+  text-align:center;
+}
+
+#description{
+  padding: 10px;
+  color:white;
+  text-shadow: 1px 1px red;
+  background-color:black;
+}
+
+#updates{
+  padding: 10px;
+  color:white;
+  text-shadow: 1px 1px red;
+  background-color:black;
+}
+
+#content{
+background-image: linear-gradient(to bottom right, black, red );
+}
+
+#content p{
+  display: inline-block;
+
+}
+
+#content-image{
+  width:'700px';
+  height:'200px';
+}
+
+img {
+    width:100px;
+    height:100px;
+    transition: transform .5s;
+
+  }
+
+img:hover {
+    transform: scale(0.5);
+    background-color:white;
+  }
+
+  .userinfo-form input{
+    text-align: center;
+    color:red;
+    font-family: 'Brush Script MT';
+    font-size:25px;
+
+    height:45px;
+    width:250px;
+    margin: 10px;
+  }
+
+#post-card{
+  text-align: center;
+  background-color:black;
+  border: 1px solid white;
+  margin-top:10px;
+}
+.post-title{
+  margin-right: 25px;
+  color:white;
+  font-family: 'Brush Script MT', cursive;
+  color:white;
+  text-shadow: 1px 1px red;
+  font-size:50px;
+}
+.post-image{
+  width:50px;
+  height:50px;
+  position: relative;
+  float: left;
+
+
+}
+.post-description{
+  text-align: center;
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  text-shadow: 1px 1px black;
+
+
+}
