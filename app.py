@@ -1,13 +1,9 @@
-from flask import Flask, render_template,request,redirect
-from flask_sqlalchemy  import SQLAlchemy
+from flask import Flask, render_template, request 
+
 
 
 
 app = Flask(__name__)
-
-def __init__(self,name, email):
-    self.name = name
-    self.email = email
 
 @app.route("/", methods=['GET','POST'])
 def index():
@@ -16,8 +12,8 @@ def index():
         # Get the data from the POST request
         name= request.form['name']
         email = request.form['email']
-        print(name)
-        print(email)
+        # print(name)
+        # print(email)
     return  render_template('index.html')
 
 
@@ -33,4 +29,4 @@ def chatbook():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80)
