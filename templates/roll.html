@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+
+<title> Dice Roll </title>
+<style>
+
+</style>
+
+  <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+<h1 id='description1'> Click the Roll the dice to start the Dice roll</h1>
+<a href="/"> <input id='goback' type="button" value="Go Back">  </a>
+<div id="diceimage">
+  <img id="dice" src="https://cs.indstate.edu/~lmay1/assets/dice/1.png"/>
+</div>
+
+<div id='rollbutton'>
+    <!-- this is the button to roll the dice -->
+  <button id='roll' onclick='clickRoll();'> click to roll! </button>
+  </div>
+
+
+
+<script>
+  function roll() {
+      i  = Math.floor(Math.random() * (6 - 1 + 1) + 1);
+
+      return i;
+
+  }
+
+
+
+
+  function clickRoll(){
+    console.log('clicked!')
+    let num = roll();
+    let imgElement = document.getElementById('dice');
+    let imgUrl = `https://cs.indstate.edu/~lmay1/assets/dice/${num}.png`;
+    imgElement.setAttribute('src',imgUrl);
+
+  }
+  </script>
+
+</body>

@@ -37,8 +37,17 @@ h1{
 
 #description{
   padding: 10px;
+  color:black;
+  text-shadow: 1px 1px red;
+  background-color:#D3D3D3;
+  font-weight: bold;
+
+}
+#description1{
+  padding: 10px;
   color:white;
   text-shadow: 1px 1px red;
+  margin-left: 600px;
   background-color:black;
 }
 
@@ -61,6 +70,10 @@ background-image: linear-gradient(to bottom right, black, red );
 #content-image{
   width:'700px';
   height:'200px';
+}
+#updates{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 img {
@@ -117,4 +130,27 @@ img:hover {
   text-shadow: 1px 1px black;
 
 
+}
+
+#diceimage{
+  margin-left: 900px;
+}
+
+#rollbutton{
+  margin-left: 900px;
+  color: red;
+}
+
+#roll{
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+}
+
+#goback{
+  background-color:red;
+  width: 70px;
+  color:white;
 }
