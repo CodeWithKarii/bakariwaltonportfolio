@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  font-family: sans-serif;
 
 
 }
@@ -16,7 +17,7 @@ p{
 }
 h1{
 
-  font-family: 'Brush Script MT', cursive;
+  font-family: sans-serif;
   color:white;
   text-shadow: 1px 1px red;
   font-size:50px;
@@ -91,7 +92,7 @@ img:hover {
   .userinfo-form input{
     text-align: center;
     color:red;
-    font-family: 'Brush Script MT';
+    font-family: sans-serif;
     font-size:25px;
 
     height:45px;
@@ -100,6 +101,7 @@ img:hover {
   }
 
 #post-card{
+  font-family: sans-serif;;
   text-align: center;
   background-color:black;
   border: 1px solid white;
@@ -108,7 +110,7 @@ img:hover {
 .post-title{
   margin-right: 25px;
   color:white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: sans-serif;
   color:white;
   text-shadow: 1px 1px red;
   font-size:50px;
